@@ -6,6 +6,7 @@ from pyspark.mllib.clustering import KMeans
 #spark-submit --master local kmeans-process.py
 #spark-submit --master yarn-cluster kmeans-process.py 
 
+##############################################################################################################
 #M2
 def mapData(line):
 	try:
